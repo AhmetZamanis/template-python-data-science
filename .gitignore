@@ -1,3 +1,13 @@
+# Data & saved model directories (keep folder structure)
+# Add new ignore & gitkeep lines for new subfolders
+data/raw/*
+data/processed/*
+models/*
+
+#!data/raw/.gitkeep
+#!data/processed/.gitkeep
+#!models/.gitkeep
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
